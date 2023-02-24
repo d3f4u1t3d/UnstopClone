@@ -1,0 +1,263 @@
+.SideBar {
+    overflow-y: auto;
+    background: #ffffff;
+    box-shadow: -2px 0 4px #86a0bf45;
+    width: 100%;
+    max-width: 375px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999999;
+}
+
+.SideBar_title {
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #1c4980;
+    border-bottom: 1px solid #dde5da;
+    height: 53px;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 99;
+}
+
+.SideBar_title em:hover {
+    transform: rotate(90deg);
+    transition: .4s;
+    color: #0073e6;
+}
+
+.waves_effect {
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.waves_effect::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all .3s;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.waves_effect:hover::after {
+    width: 100%;
+}
+
+.waves_effect:hover {
+    color: #fff;
+}
+
+.host_events {
+    background: #1c4980;
+    border-radius: 12px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 24px;
+}
+
+.list_container {
+    display: flex;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.list>li {
+    position: relative;
+}
+
+.list_specs {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    padding: 14px 24px;
+    transition: .4s;
+    color: #1c4980;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.list_specs:hover {
+    background: rgba(0, 115, 230, .06);
+    color: #0073e6;
+}
+
+.g_icons {
+    margin-right: 12px;
+    transition: .4s;
+    height: 22px;
+    width: 22px;
+    background: url(https://d8it4huxumps7.cloudfront.net/uploads/images/menu/global-profiles-spirit-iconss.svg) no-repeat;
+}
+
+.icon_employer {
+    background-position: 0px -960px;
+}
+
+.icon_employer:hover {
+    background-position-x: -32px;
+}
+
+.icon_solution {
+    background-position: 0px -928px;
+}
+
+.icon_solution:hover {
+    background-position-x: -32px;
+}
+
+.icon_product {
+    background-position: 0px -896px;
+}
+
+.icon_product:hover {
+    background-position-x: -32px;
+}
+
+.icon_clientele {
+    background-position: 0px -384px;
+}
+
+.icon_clientele:hover {
+    background-position-x: -32px;
+}
+
+.icon_case {
+    background-position: 0px -608px;
+}
+
+.icon_case:hover {
+    background-position-x: -32px;
+}
+
+.icon_pricing {
+    background-position: 0px -576px;
+}
+
+.icon_pricing:hover {
+    background-position-x: -32px;
+}
+
+.icon_contact_us {
+    background-position: 0px -224px;
+}
+
+.icon_contact_us:hover {
+    background-position-x: -32px;
+}
+
+.icon_unstop_awards {
+    background-position: 0px -160px;
+}
+
+.icon_unstop_awards:hover {
+    background-position-x: -32px;
+}
+
+.icon_oqf {
+    background-position: 0px -640px;
+}
+
+.icon_oqf:hover {
+    background-position-x: -32px;
+}
+
+.icon_ohf {
+    background-position: 0px -672px;
+}
+
+.icon_ohf:hover {
+    background-position-x: -32px;
+}
+
+.icon_partner_with_us {
+    background-position: 0px -352px;
+}
+
+.icon_partner_with_us:hover {
+    background-position-x: -32px;
+}
+
+.icon_partners {
+    background-position: 0px -416px;
+}
+
+.icon_partners:hover {
+    background-position-x: -32px;
+}
+
+.icon_testimonials {
+    background-position: 0px -448px;
+}
+
+.icon_testimonials:hover {
+    background-position-x: -32px;
+}
+
+.icon_about_us {
+    background-position: 0px -192px;
+}
+
+.icon_about_us:hover {
+    background-position-x: -32px;
+}
+
+.icon_carrers {
+    background-position: 0px -256px;
+}
+
+.icon_carrers:hover {
+    background-position-x: -32px;
+}
+
+.icon_faq {
+    background-position: 0px -288px;
+}
+
+.icon_faq:hover {
+    background-position-x: -32px;
+}
+
+.icon_terms_of_use {
+    background-position: 0px -480px;
+}
+
+.icon_terms_of_use:hover {
+    background-position-x: -32px;
+}
+
+.icon_privacy_policy {
+    background-position: 0px -512px;
+}
+
+.icon_privacy_policy:hover {
+    background-position-x: -32px;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}

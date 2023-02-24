@@ -1,0 +1,27 @@
+.searchBox {
+    position: relative;
+    margin-left: 30px;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+    color: #1c4980e6;
+}
+
+.searchBarInput {
+    height: 36px;
+    background: rgba(244, 246, 249, .5);
+    border: 1px solid rgba(28, 73, 128, .1);
+    border-radius: 8px;
+    padding: 0 10px 0 30px;
+    width: 300px;
+    margin: 0;
+    color: #1c4980e6;
+    box-sizing: border-box;
+    font-size: 1rem;
+}

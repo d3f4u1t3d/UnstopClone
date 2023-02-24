@@ -1,0 +1,157 @@
+.Header {
+    padding: 115px 0;
+}
+
+.Header::before {
+    background: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63d4b178b31d5_home_hero_before.svg);
+    left: 40px;
+    top: 25%;
+}
+
+.Header::before,
+.Header::after {
+    content: "";
+    width: 40px;
+    height: 95px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.Header::after {
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63de43bdce283_multi_color_dot.png?d=76x188);
+    right: 40px;
+    /* bottom: 15%;*/
+    width: 41px;
+    height: 102px;
+}
+
+.HeroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.HeroText {
+    position: relative;
+    max-width: 525px;
+    font-family: Inter;
+}
+
+.HeroText::after {
+    content: "";
+    width: 38px;
+    height: 95px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/students/dotted-vector.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(-90deg);
+}
+
+.HeroH1 {
+    color: #1c4980;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 44px;
+    position: relative;
+}
+
+.HeroH1::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 35%;
+    height: 2px;
+    background: #f2c034;
+}
+
+.HeroSpan {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.HeroP {
+    color: #1c4980;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 0;
+}
+
+.HeroGrid {
+    display: flex;
+    max-width: 546px;
+    flex-wrap: wrap;
+    margin: -10px;
+    transition: .3s;
+}
+
+.GridImg:hover {
+    transform: translateY(-15px);
+}
+
+.grid_img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.grid_span {
+    font-family: Inter;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    z-index: 1;
+}
+
+.GridImg {
+    color: #1c4980;
+    position: relative;
+    width: calc(33.3% -20px);
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.carousel_aligner {
+    margin-bottom: 100px;
+}
+
+.carousel_container {
+    padding: 24px 0 24px 40px;
+    border-top: 1px solid #DDE5EA;
+    border-bottom: 1px solid #DDE5EA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.carousel_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #1c4980;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Inter;
+    width: 175px;
+}
+
+
+.carousel_span {
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+}
