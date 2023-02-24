@@ -101,8 +101,8 @@
 
 .grid_img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    /* height: auto; */
 }
 
 .grid_span {
