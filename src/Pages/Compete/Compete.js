@@ -5,7 +5,7 @@ import Header from "../../Components/Header/Header";
 function Compete(props) {
   useEffect(() => {
     document.title = props.title;
-  }, []);
+  }, [props.title]);
   return (
     <div>
       <div>

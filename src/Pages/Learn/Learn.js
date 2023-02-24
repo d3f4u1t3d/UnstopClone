@@ -5,7 +5,7 @@ import Header from "../../Components/Header/Header";
 function Learn(props) {
   useEffect(() => {
     document.title = props.title;
-  }, []);
+  }, [props.title]);
   return (
     <div>
       <div>

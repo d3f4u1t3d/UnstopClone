@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Homepage(props) {
   useEffect(() => {
     document.title = props.title;
-  }, []);
+  }, [props.title]);
   return (
     <div>
       <div>

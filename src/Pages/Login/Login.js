@@ -2,7 +2,9 @@ import React from "react";
 import { useEffect } from "react";
 
 function Login(props) {
-  useEffect(() => (document.title = props.title), []);
+  useEffect(() => {
+    document.title = props.title;
+  }, [props.title]);
   return (
     <div>
       <div>Login</div>
