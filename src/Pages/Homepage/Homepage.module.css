@@ -155,3 +155,11 @@
     font-size: 18px;
     display: block;
 }
+
+.carousel_ping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 30px;
+}

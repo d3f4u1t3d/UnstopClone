@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/5e895eb520e7b_hero_motocorp.png?d=188x62",
+    "height": 31,
+    "width": 94
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6373373a88a47_screenshot_2022-11-15_at_12.21.42_pm.png?d=110x34",
+    "height": 31,
+    "width": 94
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/partners125/5c7a7bebf06cc_aditya.png?d=168x96",
+    "height": 48,
+    "width": 84
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/partners75/5c77b3e35903f_KPMG.png?d=175x72",
+    "height": 35,
+    "width": 90
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/633d3fe0b3536_challenge_logo.jpg?d=110x110",
+    "height": 60,
+    "width": 60
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/partners125/60d5e91b93542_PepsiCo_logo.png?d=120x34",
+    "height": 34,
+    "width": 120
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/partners125/5c7d138408595_image__15_.png?d=200x200",
+    "height": 40,
+    "width": "auto"
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://d8it4huxumps7.cloudfront.net/uploads/images/63dcfec0b7c7a_agoda_new.png?d=220x112",
+    "height": 56,
+    "width": 110
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/partners125/5e69eaee8a0a1_Flipkart_logo.png?d=200x53",
+    "height": 31,
+    "width": 115
+  }
+]

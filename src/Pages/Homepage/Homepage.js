@@ -3,6 +3,7 @@ import Header from "../../Components/Header/Header";
 import { useEffect } from "react";
 import styles from "./Homepage.module.css";
 import { Link } from "react-router-dom";
+import imgData from "./../../Assets/carousel_img_data.json";
 
 function Homepage(props) {
   useEffect(() => {
@@ -105,7 +106,17 @@ function Homepage(props) {
             Industry veterans
             <span className={styles.carousel_span}>trust us:</span>
           </h2>
-          <div className={styles.carousel}></div>
+          <div className={styles.carousel_ping}>
+            {imgData.map((image) => (
+              <img
+                key={image.id}
+                src={image.imageUrl}
+                alt=""
+                height={image.height}
+                width={image.width}
+              />
+            ))}
+          </div>
         </div>
       </section>
     </div>
